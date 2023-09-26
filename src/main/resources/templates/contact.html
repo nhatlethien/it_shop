@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{/layout/index :: dynamic(~{::main})}">
+<body>
+	<main class="main-content">
+
+
+		<section class="contact-info-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="contact-info-item">
+							<h4>Facebook</h4>
+							<p>Nhật Lê Thiên</p>
+							<p>Tèo bỏ NY</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="contact-info-item">
+							<h4>Tiktok</h4>
+							<p>@carotnhiemchi</p>
+							<p>Chuyên cung cấp các mẫu đăng capcut</p>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+						<div class="contact-info-item">
+							<h4>Email</h4>
+							<p>Liên hệ về Email:</p>
+							<p>nhatnoonoo001@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="section-title">
+							<h2>Get in touch with us</h2>
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="contact-form-content">
+							<div class="contact-form">
+								<form id="contact-form">
+									<div class="row">
+										<div class="col-md-9 m-auto">
+											<div class="row">
+												<div class="col-md-4">
+													<div class="form-group">
+														<input class="form-control" type="text" name="con_name" placeholder="Your name" required>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="form-group">
+														<input class="form-control" type="email" name="con_email" placeholder="Your email" required>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="form-group">
+														<input class="form-control" type="text" name="con_phone" placeholder="Phone Number">
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														<textarea class="form-control" name="con_message" placeholder="Your Message"></textarea>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group text-center">
+														<button class="btn btn-link btn-contact" type="submit">Send Message</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="form-message"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
